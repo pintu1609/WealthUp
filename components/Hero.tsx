@@ -5,13 +5,12 @@ export default function Hero() {
     { name: "Car", icon: "/images/car.svg" },
     { name: "Travel", icon: "/images/plane.svg" },
     { name: "Home", icon: "/images/home.svg" },
-    { name: "Custom", icon: "🎯" }, // ✅ FIXED
+    { name: "Custom", icon: "🎯" }, 
   ];
 
   return (
     <section className="min-h-screen max-w-6xl mx-auto px-6 pt-16 pb-0 grid md:grid-cols-2 gap-16 items-center">
 
-      {/* LEFT */}
       <div>
         {/* Avatars */}
         <div className="flex items-center gap-3 mb-6 border border-white rounded-full px-4 py-1 w-fit">
@@ -36,7 +35,6 @@ export default function Hero() {
           </span>
         </div>
 
-        {/* Heading */}
         <h1 className="text-[56px] font-bold leading-[1.1] text-[#294F7C]">
           Plan your life goals. <br />
           <span className="text-[#4A90E2]">
@@ -68,7 +66,7 @@ export default function Hero() {
                     />
                   </div>
                 ) : (
-                  <span className="text-[36px]">🎯</span> // ✅ Custom fixed
+                  <span className="text-[36px]">🎯</span> 
                 )}
               </div>
 
@@ -87,7 +85,6 @@ export default function Hero() {
         {/* CARD */}
         <div className="glass relative p-6 w-[420px] rounded-[30px] border border-[#4A90E2] shadow-[0px_4px_24px_10px_rgba(74,144,226,0.25)]">
 
-          {/* Title */}
           <h3 className="text-center font-semibold text-[#294F7C] mb-6">
             Buy a car
           </h3>
@@ -154,7 +151,6 @@ export default function Hero() {
           </div>
         </div>
 
-        {/* CAR IMAGE (BOTTOM FIXED) */}
         <div className="relative w-[460px] h-[240px] mt-auto">
           <Image
             src="/images/car.svg"

@@ -20,10 +20,8 @@ export default function WealthOptions() {
 
                 <div className="relative w-[200px] h-[100px] -rotate-[34deg] -translate-y-0">
 
-                    {/* BACK GLASS LAYER */}
                     <div className="absolute inset-0 rounded-2xl bg-[#294F7C] border border-[#4A90E2] backdrop-blur-md"></div>
 
-                    {/* FRONT CARD */}
                     <div className="absolute inset-0 translate-x-[3px] translate-y-[-6px] rounded-2xl bg-[#294F7C] border border-[#4A90E2] flex flex-col items-center justify-center shadow-md">
 
                         {/* ICON */}
@@ -47,10 +45,8 @@ export default function WealthOptions() {
                 {/* CARD 2 */}
                 <div className="relative w-[200px] h-[100px] -rotate-[34deg] -translate-y-0">
 
-                    {/* BACK GLASS LAYER */}
                     <div className="absolute inset-0 rounded-2xl bg-white/30 border border-[#4A90E2] backdrop-blur-md"></div>
 
-                    {/* FRONT CARD */}
                     <div className="absolute inset-0 translate-x-[3px] translate-y-[-6px] rounded-2xl bg-[#F8FAFC] border border-[#4A90E2] flex flex-col items-center justify-center shadow-md">
 
                         {/* ICON */}
@@ -74,10 +70,8 @@ export default function WealthOptions() {
                 {/* CARD 3 */}
                 <div className="relative w-[200px] h-[100px] -rotate-[34deg] -translate-y-0">
 
-                    {/* BACK GLASS LAYER */}
                     <div className="absolute inset-0 rounded-2xl bg-white/30 border border-[#4A90E2] backdrop-blur-md"></div>
 
-                    {/* FRONT CARD */}
                     <div className="absolute inset-0 translate-x-[3px] translate-y-[-6px] rounded-2xl bg-[#F8FAFC] border border-[#4A90E2] flex flex-col items-center justify-center shadow-md">
 
                         {/* ICON */}
@@ -100,7 +94,6 @@ export default function WealthOptions() {
                 </div>
             </div>
 
-            {/* BOTTOM CONTENT BOX */}
             <div className="mt-16 rounded-2xl border border-[#4A90E2] bg-white/20 backdrop-blur-md  flex flex-col md:flex-row gap-8">
 
                 {/* LEFT (ACTIVE) */}

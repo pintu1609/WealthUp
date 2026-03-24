@@ -21,7 +21,6 @@ export default function HowItWorks() {
   return (
     <section className="max-w-6xl mx-auto px-6 py-24">
 
-      {/* HEADING */}
       <div className="text-center mb-12">
         <h2 className="text-[36px] font-semibold text-[#294F7C]">
           How it Works?
@@ -31,7 +30,6 @@ export default function HowItWorks() {
         </p>
       </div>
 
-      {/* STEPS */}
       <div className="flex flex-col gap-10">
         {steps.map((step, index) => (
           <div
@@ -59,7 +57,6 @@ export default function HowItWorks() {
               </p>
             </div>
 
-            {/* RIGHT IMAGE (optional) */}
             {step.image && (
               <div className="relative w-[220px] h-[200px] z-10">
                 <Image
@@ -71,7 +68,6 @@ export default function HowItWorks() {
               </div>
             )}
 
-            {/* BLUR BACKGROUND */}
             <div className="absolute right-0 top-0 w-[50%] h-full bg-[#CFE6F7] blur-3xl opacity-70 rounded-r-2xl" />
 
             {/* PROGRESS BAR */}
@@ -81,8 +77,8 @@ export default function HowItWorks() {
                   key={i}
                   className={`rounded-full transition-all duration-300 ${
                     i === step.activeIndex
-                      ? "w-24 h-3 bg-[#294F7C]"   // ✅ ACTIVE BIGGER
-                      : "w-10 h-2 bg-[#CFE6F7]"   // ✅ SMALLER
+                      ? "w-24 h-3 bg-[#294F7C]"   
+                      : "w-10 h-2 bg-[#CFE6F7]"   
                   }`}
                 />
               ))}

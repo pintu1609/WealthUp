@@ -19,7 +19,6 @@ export default function WhyWealth() {
   return (
     <section className="max-w-6xl mx-auto px-6 py-24 text-center">
 
-      {/* HEADING */}
       <h2 className="text-[36px] font-semibold text-[#294F7C]">
         Why Your Wealth Grows Faster With WealthUp
       </h2>
@@ -38,16 +37,12 @@ export default function WhyWealth() {
             className="relative group w-full h-[260px]"
           >
 
-            {/* BACK DARK LAYER */}
             <div className="absolute inset-0 -translate-y-0 rounded-2xl " />
 
-            {/* FRONT GLASS CARD */}
             <div className="relative h-full rounded-2xl bg-white/10 backdrop-blur-md border border-[#4A90E2]  flex flex-col items-center justify-start transition-all duration-300 group-hover:bg-[#294F7C]">
 
               {/* TITLE */}
               <div className="relative bg-[#294F7C] rounded-b-2xl ">
-              
-
               <h3 className="text-[20px] font-semibold text-white  bg-white/10  backdrop-blur-md p-4 rounded-b-2xl group-hover:bg-[#294F7C]">
                 {card.title}
               </h3>

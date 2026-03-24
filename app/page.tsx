@@ -1,5 +1,3 @@
-// src/app/page.tsx
-
 import Hero from "@/components/Hero";
 import CTA from "@/components/CTA";
 import HowItWorks from "@/components/HowItWorks";
