@@ -19,11 +19,11 @@ export default function WhyWealth() {
   return (
     <section className="max-w-6xl mx-auto px-6 py-24 text-center">
 
-      <h2 className="text-[36px] font-semibold text-[#294F7C]">
+      <h2 className="text-[24px] sm:text-[36px] font-semibold text-[#294F7C]">
         Why Your Wealth Grows Faster With WealthUp
       </h2>
 
-      <p className="text-[#294F7C] mt-4 text-[16px] max-w-3xl mx-auto">
+      <p className="text-[#294F7C] mt-4 text-sm sm:text-[16px] max-w-3xl mx-auto">
         A smarter investment approach combining expert-curated opportunities,
         dynamic portfolio adjustments, and tax-efficient strategies.
       </p>
@@ -43,12 +43,11 @@ export default function WhyWealth() {
 
               {/* TITLE */}
               <div className="relative bg-[#294F7C] rounded-b-2xl ">
-              <h3 className="text-[20px] font-semibold text-white  bg-white/10  backdrop-blur-md p-4 rounded-b-2xl group-hover:bg-[#294F7C]">
-                {card.title}
-              </h3>
+                <h3 className="text-[20px] font-semibold text-white  bg-white/10  backdrop-blur-md p-4 rounded-b-2xl group-hover:bg-[#294F7C]">
+                  {card.title}
+                </h3>
               </div>
 
-              {/* DESCRIPTION (HIDDEN → SHOW ON HOVER) */}
               <p className="text-[15px] text-white opacity-0 group-hover:opacity-100 transition duration-300 text-center px-4 py-2">
                 {card.desc}
               </p>
